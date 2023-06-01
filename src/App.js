@@ -9,14 +9,12 @@ import Statistics from './components/Statistics/Statistics';
 function App() {
   return (
     <div className="App">
-      <div className="main-content">
         <Navbar/>
         <Header/>
         <ShortenURL/>
         <Statistics/>
         <Cto/>
         <Footer/>
-      </div>
     </div>
   );
 }

@@ -1,0 +1,151 @@
+.shortenerURL-container {
+  margin-top: 15rem;
+  background-color: var(--gray2);
+  padding: 2rem 0;
+}
+
+.offset-container {
+  margin-top: -6rem;
+}
+
+.btn-square {
+  border-radius: 6px;
+  padding: 1rem 1.6rem;
+}
+
+.btn-square:focus,
+.btn-square:hover {
+  opacity: 1;
+  background-color: var(--cyan-2);
+}
+
+input[type="text"] {
+  padding: 1rem 1.6rem;
+  border-radius: 4px;
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder,
+input[type="text"] {
+  color: var(--grayishViolet);
+  font-family: "Poppins", sans-serif;
+}
+
+.inputURL a {
+  margin-left: 1.75rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+}
+
+.inputURL {
+  display: block;
+  padding: 2rem 4rem;
+  background: url(/src/images/bg-shorten-desktop.svg);
+  background-repeat: none;
+  background-color: var(--DarkViolet);
+  background-position-x: right;
+  border-radius: 6px;
+  position: relative;
+}
+
+.btn-small {
+  padding: 0.4rem 1.2rem;
+}
+.outputURL-response {
+  background-color: #fff;
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 0.8rem 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outputURL-response div {
+  display: flex;
+  align-items: center;
+}
+
+.outputURL-response div a {
+  margin-left: 1rem;
+}
+
+.outputURL-response div h3 {
+  color: var(--cyan);
+}
+
+.outputURL-response h3,
+.outputURL-response div h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.error-message {
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 0.8rem;
+  color: var(--red);
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+  display: none;
+}
+
+.error-input:focus {
+  outline: solid 2px var(--red);
+}
+@media only screen and (max-width: 1080px) {
+  .outputURL-response h3,
+  .outputURL-response div h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .inputURL a {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .error-message {
+    font-size: 0.65em;
+    bottom: 95px;
+    left: 70px;
+  }
+  .outputURL-response div {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .outputURL-response div a {
+    margin: 0;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .outputURL-response {
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .outputURL-response h3,
+  .outputURL-response div h3 {
+    font-size: 0.9rem;
+  }
+}
