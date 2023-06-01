@@ -1,0 +1,91 @@
+nav {
+  margin-top: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--grayishViolet);
+  font-size: 1.1rem;
+}
+
+a:hover,
+a:focus {
+  color: var(--veryDarkViolet);
+}
+
+.btn-type-a {
+  font-size: 0.9rem;
+  background-color: var(--cyan);
+  color: #fff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 18px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.btn-type-a:hover,
+.btn-type-a:focus {
+  opacity: 0.6;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-section img {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+li a {
+  padding: 0 1rem;
+}
+
+.login-section {
+  margin-top: 2px;
+}
+
+.login-section a:first-child {
+  margin-right: 1rem;
+  line-height: 30px;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .menu {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+  }
+
+  .login-section {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+}
