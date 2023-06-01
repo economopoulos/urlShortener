@@ -22,6 +22,7 @@ export default function ShortenURL() {
           <section className="outputURL">
             <div className="outputURL-response">
               <h3>https://www.frontendmentor.io</h3>
+              <hr />
               <div>
                 <h3>https://wefewfw/23f2</h3>
                 <a href="#" className="btn-type-a btn-square btn-small">
