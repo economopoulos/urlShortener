@@ -19,7 +19,7 @@ export default function ShortenURL() {
               </a>
             </form>
           </section>
-          <section className="outputURL">
+          <section className="outputURL visible">
             <div className="outputURL-response">
               <h3>https://www.frontendmentor.io</h3>
               <hr />

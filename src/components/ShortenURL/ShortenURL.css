@@ -18,6 +18,9 @@
   opacity: 1;
   background-color: var(--cyan-2);
 }
+.visible{
+  display: none;
+}
 
 input[type="text"] {
   padding: 1rem 1.6rem;
