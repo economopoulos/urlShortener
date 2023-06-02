@@ -50,8 +50,9 @@ form {
 .inputURL {
   display: block;
   padding: 2rem 4rem;
-  background: url(/src/images/bg-shorten-desktop.svg);
-  background-repeat: none;
+  background: url("/src/images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--DarkViolet);
   background-position-x: right;
   border-radius: 6px;
