@@ -12,9 +12,9 @@ export default function Header() {
             Build your brand's recognition and get detailed insights on how your
             links are performing
           </p>
-          <a href="#" className="btn-type-a big">
+          <button className="btn-type-a big">
             get started
-          </a>
+          </button>
         </section>
         <section className="img-section">
           <img src={image} alt="illustration" />

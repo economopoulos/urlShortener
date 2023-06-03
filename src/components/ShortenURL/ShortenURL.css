@@ -99,12 +99,12 @@ form {
 .error-message {
   font-weight: 500;
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--red);
   position: absolute;
   bottom: 10px;
   left: 70px;
-  display: none;
+  /* display: none; */
 }
 
 .error-input:focus {

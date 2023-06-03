@@ -24,9 +24,9 @@ export default function Navbar() {
         </div>
         <div className="login-section">
           <a href="#">login</a>
-          <a href="#" className="btn-type-a">
+          <button className="btn-type-a">
             Sign up
-          </a>
+          </button>
         </div>
         <div className="menu">
           <AiOutlineMenu />

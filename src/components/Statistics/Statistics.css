@@ -134,4 +134,9 @@
   .futures {
     margin-top: 0;
   }
+  .future-container .icon {
+    margin-left: 39%;
+    z-index: 2;
+    position: relative;
+  }
 }
